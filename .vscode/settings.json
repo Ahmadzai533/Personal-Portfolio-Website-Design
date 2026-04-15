@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "onWindowChange",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

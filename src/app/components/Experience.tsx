@@ -1,61 +1,46 @@
 import { motion } from "motion/react";
 import { Briefcase, GraduationCap } from "lucide-react";
-
 const experiences = [
   {
     type: "work",
-    title: "Senior Full Stack Developer",
-    company: "TechCorp Solutions",
-    period: "2022 - Present",
-    description:
-      "Leading development of enterprise-scale web applications, mentoring junior developers, and architecting scalable solutions using modern technologies.",
-    achievements: [
-      "Reduced application load time by 40% through optimization",
-      "Led a team of 5 developers on critical projects",
-      "Implemented CI/CD pipeline improving deployment efficiency",
-    ],
-  },
-  {
-    type: "work",
     title: "Full Stack Developer",
-    company: "Digital Innovations Inc",
-    period: "2020 - 2022",
+    company: "Freelance (Upwork | Fiverr | Freelancer)",
+    period: "2025 - Present",
     description:
-      "Developed and maintained multiple client projects, focusing on React-based front-ends and Node.js backends.",
+      "Building modern full-stack web applications using React and Node.js. Focused on creating responsive UIs, backend APIs, and delivering real-world freelance projects for clients.",
     achievements: [
-      "Built 15+ production-ready web applications",
-      "Introduced TypeScript adoption across the team",
-      "Improved code quality with comprehensive testing",
+      "Developed multiple full-stack web applications using React and Node.js",
+      "Improved application performance by optimizing code (up to 40%)",
+      "Worked with international clients through freelance platforms",
     ],
   },
   {
     type: "education",
-    title: "Bachelor of Computer Science",
-    company: "State University",
-    period: "2016 - 2020",
+    title: "Computer Science (Ongoing)",
+    company: "Hazrat Qais bin saad high school",
+    period: "2024 - Present",
     description:
-      "Graduated with honors. Specialized in Software Engineering and Web Technologies.",
+      "Studying core computer science concepts including programming, databases, and web development.",
     achievements: [
-      "GPA: 3.8/4.0",
-      "Dean's List all semesters",
-      "Led university coding club",
+      "Learned JavaScript, HTML, CSS, and web development fundamentals",
+      "Built personal projects for practice and skill development",
+      "Improved problem-solving and logical thinking skills",
     ],
   },
   {
-    type: "work",
-    title: "Junior Web Developer",
-    company: "StartupHub",
-    period: "2019 - 2020",
+    type: "project",
+    title: "Personal & Practice Projects",
+    company: "Self-Initiated",
+    period: "2025 - Present",
     description:
-      "Part-time role during final year of university. Built responsive websites and learned modern development practices.",
+      "Built multiple learning and portfolio projects to improve development skills and gain real-world experience.",
     achievements: [
-      "Developed 10+ client websites",
-      "Learned React and modern JavaScript",
-      "Collaborated with design team",
+      "Created React-based portfolio and UI components",
+      "Built backend APIs using Node.js and Express",
+      "Practiced API integration and responsive design",
     ],
   },
 ];
-
 export function Experience() {
   return (
     <section id="experience" className="py-20 relative overflow-hidden">

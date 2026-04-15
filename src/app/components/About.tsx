@@ -57,30 +57,32 @@ export function About() {
               {/* Glassmorphism card */}
               <div className="p-8 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 shadow-2xl">
                 <h3 className="text-2xl font-bold text-white mb-4">
-                  Passionate Developer & Problem Solver
+                 Creative Mind Behind Clean & Functional Code
                 </h3>
                 <p className="text-gray-300 mb-4 leading-relaxed">
-                  With over 5 years of experience in web development, I
-                  specialize in building modern, responsive web applications
-                  that deliver exceptional user experiences. My journey in tech
-                  started with a curiosity for how things work, and has evolved
-                  into a passion for creating innovative solutions.
+                  I am a passionate web developer with experience building
+                  modern, responsive, and user-friendly web applications. I
+                  enjoy turning ideas into real-world digital products that
+                  deliver smooth and engaging user experiences.
                 </p>
                 <p className="text-gray-300 leading-relaxed">
-                  I thrive in collaborative environments and love tackling
-                  complex challenges. When I'm not coding, you'll find me
-                  exploring new technologies, contributing to open-source
-                  projects, or sharing knowledge with the developer community.
+                  My journey in technology began with curiosity and has grown
+                  into a strong commitment to continuous learning and
+                  improvement. I enjoy working in collaborative environments,
+                  solving complex problems, and building efficient solutions.
+                  Outside of coding, I like exploring new technologies and
+                  improving my skills to stay up to date with the latest trends
+                  in web development.
                 </p>
 
                 <div className="mt-6 flex flex-wrap gap-3">
                   {[
                     "React",
-                    "TypeScript",
+                    "JavaScript",
                     "Node.js",
                     "Next.js",
                     "Tailwind CSS",
-                    "PostgreSQL",
+                    "MongoDB",
                   ].map((tech, index) => (
                     <motion.span
                       key={index}
@@ -137,9 +139,9 @@ export function About() {
           className="grid grid-cols-2 md:grid-cols-4 gap-6"
         >
           {[
-            { value: "5+", label: "Years Experience" },
-            { value: "50+", label: "Projects Completed" },
-            { value: "30+", label: "Happy Clients" },
+            { value: "2+", label: "Years Experience" },
+            { value: "12+", label: "Projects Completed" },
+            { value: "20+", label: "Happy Clients" },
             { value: "15+", label: "Technologies" },
           ].map((stat, index) => (
             <motion.div

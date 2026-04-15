@@ -8,40 +8,44 @@ const projects = [
     title: "E-Commerce Platform",
     description:
       "Full-stack e-commerce solution with real-time inventory management, payment integration, and advanced analytics dashboard.",
-    image: "https://images.unsplash.com/photo-1658297063569-162817482fb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBzaG9wcGluZyUyMHdlYnNpdGV8ZW58MXx8fHwxNzc1NzM0NDgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    tags: ["React", "Node.js", "PostgreSQL", "Stripe"],
-    liveUrl: "#",
-    githubUrl: "#",
+    image:
+      "https://images.unsplash.com/photo-1658297063569-162817482fb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBzaG9wcGluZyUyMHdlYnNpdGV8ZW58MXx8fHwxNzc1NzM0NDgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    tags: ["React", "Node.js", "MongoDB", "Stripe"],
+    liveUrl: "https://www.fiverr.com/users/ahmadzia533/seller_dashboard",
+    githubUrl: "https://www.fiverr.com/users/ahmadzia533/seller_dashboard",
     featured: true,
   },
   {
     title: "Analytics Dashboard",
     description:
       "Real-time data visualization platform with customizable widgets, advanced filtering, and export capabilities.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc3NTc1MzkxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc3NTc1MzkxOXww&ixlib=rb-4.1.0&q=80&w=1080",
     tags: ["Next.js", "TypeScript", "Recharts", "Tailwind"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://www.fiverr.com/users/ahmadzia533/seller_dashboard",
+    githubUrl: "https://github.com/Ahmadzai533/Elerna-vip-project",
     featured: true,
   },
   {
     title: "Mobile Banking App",
     description:
       "Cross-platform mobile banking application with biometric authentication, instant transfers, and budget tracking.",
-    image: "https://images.unsplash.com/photo-1661246627162-feb0269e0c07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2UlMjBkZXNpZ258ZW58MXx8fHwxNzc1NzEzMDc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image:
+      "https://images.unsplash.com/photo-1661246627162-feb0269e0c07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2UlMjBkZXNpZ258ZW58MXx8fHwxNzc1NzEzMDc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
     tags: ["React Native", "Firebase", "Redux", "Expo"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://www.fiverr.com/users/ahmadzia533/seller_dashboard",
+    githubUrl: "https://github.com/Ahmadzai533/Elerna-vip-project",
     featured: false,
   },
   {
     title: "Developer Portfolio CMS",
     description:
       "Content management system for developers to showcase their work with blog, project galleries, and contact forms.",
-    image: "https://images.unsplash.com/photo-1760548425425-e42e77fa38f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGluZyUyMHNjcmVlbnxlbnwxfHx8fDE3NzU3MjU1MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    image:
+      "https://images.unsplash.com/photo-1760548425425-e42e77fa38f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGluZyUyMHNjcmVlbnxlbnwxfHx8fDE3NzU3MjU1MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
     tags: ["Next.js", "Sanity.io", "Vercel", "MDX"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://www.fiverr.com/users/ahmadzia533/seller_dashboard",
+    githubUrl: "https://github.com/Ahmadzai533/Elerna-vip-project",
     featured: false,
   },
 ];

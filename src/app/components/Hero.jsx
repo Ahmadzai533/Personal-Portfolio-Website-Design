@@ -79,9 +79,7 @@ export function Hero() {
             transition={{ delay: 0.5 }}
             className="text-gray-400 text-lg mb-8 max-w-xl"
           >
-            Crafting exceptional digital experiences with modern technologies.
-            Specialized in React, Node.js, and cloud architecture.
-            Freelancer in Upwork , Fiver and Freelancer
+            I design and develop high-quality digital experiences powered by modern technologies. My expertise includes React, Node.js, and cloud architecture, focusing on performance, scalability, and clean design. As a freelance developer on Upwork, Fiverr, and Freelancer, I collaborate with clients worldwide to bring their ideas to life.
           </motion.p>
 
           <motion.div

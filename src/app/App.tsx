@@ -13,11 +13,11 @@ export default function App() {
       <Navigation />
       <main>
         <Hero />
-        <About /> 
-        {/* <Skills />
+        <About />
+        <Skills />
         <Projects />
         <Experience />
-        <Contact />  */}
+        {/*    <Contact />  */}
       </main>
       {/* <Footer /> */}
     </div>

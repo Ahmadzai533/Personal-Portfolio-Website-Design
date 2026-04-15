@@ -14,8 +14,9 @@ const skillCategories = [
     icon: Code2,
     title: "Frontend Development",
     skills: [
-      { name: "React / Next.js", level: 95 },
-      { name: "TypeScript", level: 90 },
+      { name: "React / Next.js", level: 90 },
+      { name: "JavaScript", level: 80 },
+      { name: "TypeScript", level: 75 },
       { name: "Tailwind CSS", level: 92 },
       { name: "HTML/CSS", level: 95 },
     ],
@@ -24,29 +25,29 @@ const skillCategories = [
     icon: Database,
     title: "Backend Development",
     skills: [
-      { name: "Node.js / Express", level: 88 },
-      { name: "Python / Django", level: 82 },
+      { name: "Node.js / Express", level: 92 },
+      { name: "Python / Django", level: 72 },
       { name: "REST APIs", level: 90 },
-      { name: "GraphQL", level: 80 },
+      { name: "php / laravel", level: 80 },
     ],
   },
   {
     icon: Database,
     title: "Database & Storage",
     skills: [
-      { name: "PostgreSQL", level: 85 },
-      { name: "MongoDB", level: 83 },
-      { name: "Redis", level: 78 },
-      { name: "Firebase", level: 87 },
+      { name: "PostgreSQL", level: 75 },
+      { name: "MongoDB", level: 90 },
+      { name: "SQL", level: 78 },
+      { name: "MySQL", level: 75 },
     ],
   },
   {
     icon: Cloud,
     title: "Cloud & DevOps",
     skills: [
-      { name: "AWS / Azure", level: 82 },
-      { name: "Docker", level: 85 },
-      { name: "CI/CD", level: 80 },
+      { name: "AWS / Azure", level: 62 },
+      { name: "Docker", level: 70 },
+      { name: "CI/CD", level: 60 },
       { name: "Kubernetes", level: 75 },
     ],
   },
@@ -54,10 +55,10 @@ const skillCategories = [
     icon: Smartphone,
     title: "Mobile Development",
     skills: [
-      { name: "React Native", level: 83 },
-      { name: "Flutter", level: 70 },
+      { name: "React Native", level: 75 },
+      { name: "Flutter", level: 80 },
       { name: "Responsive Design", level: 93 },
-      { name: "PWA", level: 88 },
+      { name: "PWA", level: 60 },
     ],
   },
   {
@@ -67,7 +68,7 @@ const skillCategories = [
       { name: "Git / GitHub", level: 92 },
       { name: "Figma / Design", level: 85 },
       { name: "Testing (Jest)", level: 87 },
-      { name: "Agile / Scrum", level: 90 },
+      { name: "Agile / Scrum", level: 75 },
     ],
   },
 ];
@@ -122,10 +123,14 @@ export function Skills() {
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
-                    transition={{ delay: (categoryIndex * 0.1) + (skillIndex * 0.05) }}
+                    transition={{
+                      delay: categoryIndex * 0.1 + skillIndex * 0.05,
+                    }}
                   >
                     <div className="flex justify-between items-center mb-2">
-                      <span className="text-gray-300 text-sm">{skill.name}</span>
+                      <span className="text-gray-300 text-sm">
+                        {skill.name}
+                      </span>
                       <span className="text-cyan-400 text-sm font-semibold">
                         {skill.level}%
                       </span>
@@ -135,7 +140,10 @@ export function Skills() {
                         initial={{ width: 0 }}
                         whileInView={{ width: `${skill.level}%` }}
                         viewport={{ once: true }}
-                        transition={{ duration: 1, delay: (categoryIndex * 0.1) + (skillIndex * 0.05) }}
+                        transition={{
+                          duration: 1,
+                          delay: categoryIndex * 0.1 + skillIndex * 0.05,
+                        }}
                         className="h-full bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full"
                       />
                     </div>
