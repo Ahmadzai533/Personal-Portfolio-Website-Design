@@ -1,5 +1,13 @@
 import { motion } from "motion/react";
-import { Mail, MapPin, Phone, Send, Github, Linkedin, Twitter } from "lucide-react";
+import {
+  Mail,
+  MapPin,
+  Phone,
+  Send,
+  Github,
+  Linkedin,
+  Twitter,
+} from "lucide-react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
@@ -9,19 +17,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "alex.chen@example.com",
-    href: "mailto:alex.chen@example.com",
+    value: "roohullahpoohangmail.com",
+    href: "mailto:roohullahpoohangmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+93764501880",
+    href: "tel:+93764501880",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "kabul, Afghanistan",
     href: "#",
   },
 ];
@@ -30,19 +38,19 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com",
+    href: "https://github.com/Ahmadzai533",
     color: "hover:text-white",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com",
+    href: "https://github.com/Ahmadzai533",
     color: "hover:text-blue-400",
   },
   {
     icon: Twitter,
     label: "Twitter",
-    href: "https://twitter.com",
+    href: "https://twitter.com/Roohullah",
     color: "hover:text-cyan-400",
   },
 ];
@@ -83,7 +91,8 @@ export function Contact() {
           </h2>
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
             Have a project in mind or want to discuss opportunities? I'd love to
-            hear from you. Send me a message and I'll respond as soon as possible.
+            hear from you. Send me a message and I'll respond as soon as
+            possible.
           </p>
         </motion.div>
 
@@ -243,7 +252,10 @@ export function Contact() {
                 />
               </div>
 
-              <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+              <motion.div
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+              >
                 <Button
                   type="submit"
                   size="lg"

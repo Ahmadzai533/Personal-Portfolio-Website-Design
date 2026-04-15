@@ -20,7 +20,7 @@ export function Footer() {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-2">
-              Alex Chen
+              Roohullah Poohan
             </h3>
             <p className="text-gray-400 text-sm">
               Full Stack Web Developer crafting exceptional digital experiences.
@@ -36,18 +36,23 @@ export function Footer() {
           >
             <h4 className="text-white font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              {["Home", "About", "Skills", "Projects", "Experience", "Contact"].map(
-                (item, index) => (
-                  <li key={index}>
-                    <a
-                      href={`#${item.toLowerCase()}`}
-                      className="text-gray-400 hover:text-cyan-400 transition-colors text-sm"
-                    >
-                      {item}
-                    </a>
-                  </li>
-                )
-              )}
+              {[
+                "Home",
+                "About",
+                "Skills",
+                "Projects",
+                "Experience",
+                "Contact",
+              ].map((item, index) => (
+                <li key={index}>
+                  <a
+                    href={`#${item.toLowerCase()}`}
+                    className="text-gray-400 hover:text-cyan-400 transition-colors text-sm"
+                  >
+                    {item}
+                  </a>
+                </li>
+              ))}
             </ul>
           </motion.div>
 
@@ -84,7 +89,7 @@ export function Footer() {
           className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4"
         >
           <p className="text-gray-400 text-sm flex items-center gap-2">
-            © 2025 Alex Chen. Made with{" "}
+            © 2025 Roohullah Poohan. Made with{" "}
             <Heart className="w-4 h-4 text-red-400 fill-red-400" /> and React
           </p>
 
