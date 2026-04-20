@@ -15,39 +15,39 @@ const projects = [
     githubUrl: "https://www.fiverr.com/users/ahmadzia533/seller_dashboard",
     featured: true,
   },
-  {
-    title: "Analytics Dashboard",
-    description:
-      "Real-time data visualization platform with customizable widgets, advanced filtering, and export capabilities.",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc3NTc1MzkxOXww&ixlib=rb-4.1.0&q=80&w=1080",
-    tags: ["Next.js", "TypeScript", "Recharts", "Tailwind"],
-    liveUrl: "https://www.fiverr.com/users/ahmadzia533/seller_dashboard",
-    githubUrl: "https://github.com/Ahmadzai533/Elerna-vip-project",
-    featured: true,
-  },
-  {
-    title: "Mobile Banking App",
-    description:
-      "Cross-platform mobile banking application with biometric authentication, instant transfers, and budget tracking.",
-    image:
-      "https://images.unsplash.com/photo-1661246627162-feb0269e0c07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2UlMjBkZXNpZ258ZW58MXx8fHwxNzc1NzEzMDc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    tags: ["React Native", "Firebase", "Redux", "Expo"],
-    liveUrl: "https://www.fiverr.com/users/ahmadzia533/seller_dashboard",
-    githubUrl: "https://github.com/Ahmadzai533/Elerna-vip-project",
-    featured: false,
-  },
-  {
-    title: "Developer Portfolio CMS",
-    description:
-      "Content management system for developers to showcase their work with blog, project galleries, and contact forms.",
-    image:
-      "https://images.unsplash.com/photo-1760548425425-e42e77fa38f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGluZyUyMHNjcmVlbnxlbnwxfHx8fDE3NzU3MjU1MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    tags: ["Next.js", "Sanity.io", "Vercel", "MDX"],
-    liveUrl: "https://www.fiverr.com/users/ahmadzia533/seller_dashboard",
-    githubUrl: "https://github.com/Ahmadzai533/Elerna-vip-project",
-    featured: false,
-  },
+  // {
+  //   title: "Analytics Dashboard",
+  //   description:
+  //     "Real-time data visualization platform with customizable widgets, advanced filtering, and export capabilities.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc3NTc1MzkxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+  //   tags: ["Next.js", "TypeScript", "Recharts", "Tailwind"],
+  //   liveUrl: "https://www.fiverr.com/users/ahmadzia533/seller_dashboard",
+  //   githubUrl: "https://github.com/Ahmadzai533/Elerna-vip-project",
+  //   featured: true,
+  // },
+  // {
+  //   title: "Mobile Banking App",
+  //   description:
+  //     "Cross-platform mobile banking application with biometric authentication, instant transfers, and budget tracking.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1661246627162-feb0269e0c07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2UlMjBkZXNpZ258ZW58MXx8fHwxNzc1NzEzMDc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  //   tags: ["React Native", "Firebase", "Redux", "Expo"],
+  //   liveUrl: "https://www.fiverr.com/users/ahmadzia533/seller_dashboard",
+  //   githubUrl: "https://github.com/Ahmadzai533/Elerna-vip-project",
+  //   featured: false,
+  // },
+  // {
+  //   title: "Developer Portfolio CMS",
+  //   description:
+  //     "Content management system for developers to showcase their work with blog, project galleries, and contact forms.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1760548425425-e42e77fa38f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGluZyUyMHNjcmVlbnxlbnwxfHx8fDE3NzU3MjU1MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  //   tags: ["Next.js", "Sanity.io", "Vercel", "MDX"],
+  //   liveUrl: "https://www.fiverr.com/users/ahmadzia533/seller_dashboard",
+  //   githubUrl: "https://github.com/Ahmadzai533/Elerna-vip-project",
+  //   featured: false,
+  // },
 ];
 
 export function Projects() {

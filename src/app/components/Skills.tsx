@@ -26,48 +26,48 @@ const skillCategories = [
     title: "Backend Development",
     skills: [
       { name: "Node.js / Express", level: 92 },
-      { name: "Python / Django", level: 72 },
+
       { name: "REST APIs", level: 90 },
       { name: "php / laravel", level: 80 },
     ],
   },
-  {
-    icon: Database,
-    title: "Database & Storage",
-    skills: [
-      { name: "PostgreSQL", level: 75 },
-      { name: "MongoDB", level: 90 },
-      { name: "SQL", level: 78 },
-      { name: "MySQL", level: 75 },
-    ],
-  },
-  {
-    icon: Cloud,
-    title: "Cloud & DevOps",
-    skills: [
-      { name: "AWS / Azure", level: 62 },
-      { name: "Docker", level: 70 },
-      { name: "CI/CD", level: 60 },
-      { name: "Kubernetes", level: 75 },
-    ],
-  },
-  {
-    icon: Smartphone,
-    title: "Mobile Development",
-    skills: [
-      { name: "React Native", level: 75 },
-      { name: "Flutter", level: 80 },
-      { name: "Responsive Design", level: 93 },
-      { name: "PWA", level: 60 },
-    ],
-  },
+  // {
+  //   icon: Database,
+  //   title: "Database & Storage",
+  //   skills: [
+
+  //     { name: "MongoDB", level: 90 },
+  //     { name: "SQL", level: 78 },
+  //     { name: "MySQL", level: 75 },
+  //   ],
+  // },
+  // {
+  //   icon: Cloud,
+  //   title: "Cloud & DevOps",
+  //   skills: [
+  //     { name: "AWS / Azure", level: 62 },
+  //     { name: "Docker", level: 70 },
+  //     { name: "CI/CD", level: 60 },
+  //     { name: "Kubernetes", level: 75 },
+  //   ],
+  // },
+  // {
+  //   icon: Smartphone,
+  //   title: "Mobile Development",
+  //   skills: [
+  //     { name: "React Native", level: 75 },
+  //     { name: "Flutter", level: 80 },
+  //     { name: "Responsive Design", level: 93 },
+  //     { name: "PWA", level: 60 },
+  //   ],
+  // },
   {
     icon: GitBranch,
     title: "Tools & Others",
     skills: [
       { name: "Git / GitHub", level: 92 },
       { name: "Figma / Design", level: 85 },
-      { name: "Testing (Jest)", level: 87 },
+
       { name: "Agile / Scrum", level: 75 },
     ],
   },
@@ -164,18 +164,18 @@ export function Skills() {
           <p className="text-gray-400 mb-6">Also experienced with:</p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              "Redux",
-              "Vue.js",
+              // "Redux",
+              // "Vue.js",
               "Angular",
-              "Webpack",
+              // "Webpack",
               "Vite",
-              "Prisma",
-              "Supabase",
+              // "Prisma",
+              // "Supabase",
               "Vercel",
-              "Netlify",
-              "Stripe",
-              "WebSockets",
-              "Socket.io",
+              // "Netlify",
+              // "Stripe",
+              // "WebSockets",
+              // "Socket.io",
             ].map((tech, index) => (
               <motion.span
                 key={index}
